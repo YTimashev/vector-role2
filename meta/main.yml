@@ -1,4 +1,6 @@
 galaxy_info:
+  role_name: vector_role2
+  namespace: y_tim
   author: Y Tim
   description: vector role test
   company: netology
@@ -14,7 +16,7 @@ galaxy_info:
   # - GPL-3.0-only
   # - Apache-2.0
   # - CC-BY-4.0
-  license: license MIT
+  license: MIT
 
   min_ansible_version: 2.1
 
@@ -27,11 +29,14 @@ galaxy_info:
   # To view available platforms and versions (or releases), visit:
   # https://galaxy.ansible.com/api/v1/platforms/
   #
-  # platforms:
-  # - name: Fedora
-  #   versions:
-  #   - all
-  #   - 25
+  platforms:
+    - name: CentOS
+      versions:
+        - 7
+        - 8
+    - name: Ubuntu
+      versions:
+        - all
   # - name: SomePlatform
   #   versions:
   #   - all
